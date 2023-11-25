@@ -1,0 +1,41 @@
+body{
+    height: 200vh;
+}
+.sticky{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: sticky;
+    top: 50px;
+}
+.parent{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-block: 3rem;
+    position: relative;
+    /* left:200px; */
+    /* top: ;
+    bottom: ;
+    left: ;
+    right: ; */
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    /* top: 100px;
+    left: 50px; */
+    right: 0;
+}
+
+/* position */
+/* static */
+/* relative */
+/* absolute */
+/* sticky */
+/*  */
