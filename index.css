@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-block: 1rem;
+    margin-inline: 1rem;
+
+}
+tr,td,th{
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background: #CCC
+}
+tr:nth-child(odd){
+    background: #456992
+    }
